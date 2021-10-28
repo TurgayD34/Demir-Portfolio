@@ -1,0 +1,83 @@
+nav {
+  position: fixed;
+  max-width: 300px;
+  width: 100%;
+  height: 100vh;
+  background-color: #042331;
+}
+nav .nav {
+  margin-left: 10%;
+}
+nav .nav .profile-img {
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .nav .profile-img .img-border img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px 1px;
+  border-color: #ffffff;
+}
+nav .nav .profile-name-work {
+  color: #ffffff;
+}
+nav .nav .profile-name-work h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 30px;
+  line-height: 54px;
+  letter-spacing: 2.2px;
+  font-style: normal;
+  text-shadow: 2px 2px 2px #000;
+}
+nav .nav .profile-name-work h3 {
+  font-family: "Irish Grover", cursive;
+  line-height: 32px;
+  margin: 4%;
+  text-shadow: 2px 2px 2px #000;
+}
+nav .nav .profile-name-work h3 span {
+  margin-left: 30%;
+}
+nav .nav .nav-list {
+  max-width: 180px;
+  height: 300px;
+  margin-top: 50px;
+  list-style-type: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav .nav .nav-list li {
+  text-decoration: none;
+  margin-top: 20px;
+}
+nav .nav .nav-list li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav .nav .nav-list li :hover {
+  font-size: 19px;
+  text-shadow: 2px 2px 2px #000;
+}
+nav .nav .nav-list .underline {
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+nav .nav .icons a {
+  color: #006400;
+  font-size: 1.5em;
+  margin-right: 30px;
+}
+nav .nav .icons :hover {
+  font-size: 2em;
+}

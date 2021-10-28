@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import '_nav';
+@import '_top';
+@import '_about';
+
+main{
+    margin-left: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: right;
+    // Resposive sidebar: https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+}
