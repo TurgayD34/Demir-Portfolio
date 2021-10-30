@@ -6,11 +6,22 @@
 @import '_nav';
 @import '_top';
 @import '_about';
+@import '_edu-exp';
+@import '_works';
+@import '_contact';
 
 main{
     margin-left: 300px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     float: right;
-    // Resposive sidebar: https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+    //Resposive sidebar: https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
 }
+
+::-webkit-scrollbar{
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #042331;
+}
+

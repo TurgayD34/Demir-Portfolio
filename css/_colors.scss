@@ -1,5 +1,18 @@
 $font-family-irish: 'Irish Grover', cursive;
 $font-family-josefin: 'Josefin Sans', sans-serif;
 $font-family-lobster: 'Lobster', cursive;
+$font-family-architects: 'Architects Daughter', cursive;
 $color-white: #ffffff;
 $color-black: #000000;
+$main-color: #042331;
+$color-green: #006400;
+
+.h2{
+    font-family: $font-family-irish;
+    font-size: 28px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.section-line{
+    border: 1px solid $main-color;
+}

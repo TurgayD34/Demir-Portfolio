@@ -4,7 +4,7 @@ nav{
     max-width: 300px;
     width: 100%;
     height: 100vh;
-    background-color: #042331;
+    background-color: $main-color;
     .nav{
         margin-left: 10%;
         .profile-img{
@@ -79,7 +79,7 @@ nav{
         }
         .icons{
             a{
-                color: #006400;
+                color: $color-green;
                 font-size: 1.5em;
                 margin-right: 30px;
             }
