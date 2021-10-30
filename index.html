@@ -7,6 +7,7 @@
     <title>Turgay Demir Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="fonts">
+    <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/62ec7cd660.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,15 +25,13 @@
             </div>
             <ul class="nav-list">
                 <li><a href=""><i class="fas fa-bars"></i></a></li>
-                <li><a href="#"><i class="fas fa-globe"></i>  Welcome</a></li>
+                <li><a href="#welCome/"><i class="fas fa-globe"></i>  Welcome</a></li>
                 <div class="underline"></div>
-                <li><a href="#"><i class="fas fa-user-circle"></i>  About Me</a></li>
+                <li><a href="#about/"><i class="fas fa-user-circle"></i>  About Me</a></li>
                 <div class="underline"></div>
                 <li><a href="#"><i class="fas fa-clipboard-list"></i> My Experience</a></li>
                 <div class="underline"></div>
                 <li><a href="#"><i class="fas fa-laptop-code"></i>  My Works</a></li>
-                <div class="underline"></div>
-                <li><a href="#"><i class="fab fa-angellist"></i>  Testmonials</a></li>
                 <div class="underline"></div>
                 <li><a href="#"><i class="fas fa-mail-bulk"></i>  Contact</a></li>
                 <div class="underline"></div>
@@ -44,7 +43,7 @@
         </div>
     </nav>
     <main>
-        <section class="welcome">
+        <section id="welCome" class="welcome">
             <h1>Hello! I am QA Automation Engineer and Front End Developer</h1>
             <p>
                 Welcome to my portfolio page.
@@ -52,33 +51,140 @@
                 If you have any questions, please get in touch with me.
             </p>
         </section>
-        <section class="about-me">
-            <h3>About Me</h3>
-            <p>Hi, my name is Turgay Demir. I have graduated University Depertment of Mathematics Education. I worked as a Mathematics teacher between 2012 and 2017. I switched to computer programming 5 years ago. Since I have numerical intelligence, I had no difficulty in changing the chapter. <br>
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+            <p>Hi, my name is Turgay Demir. I have graduated University Depertment of Mathematics Education. I worked as a Mathematics teacher between 2012 and 2017. I switched to computer programming 5 years ago. Since I have numerical intelligence, I had no difficulty in changing the branch. <br>
             Initially, I learned the Java language and did internship in 2 places as a QA and now I took a course in the front end area and I continue to improve myself in this area.
             </p>
-            <div class="about-line"></div>
+            <div class="section-line"></div>
         </section>
-        <!-- <section id="Education-Experience">
-            <div class="education">
-                <div class="sundsgarden">
-                    <h3>Sundsgarden Folkhogskola</h3>
-                    <p>2022</p>
-                    <p>Front End Development</p>
+        <section class="edu-exp">
+            <h2>Educations & Experiences</h2>
+            <div class="edu-exp-list">
+                <div class="education">
+                    <h3 class="edu-h3"><i class="fas fa-school"></i> Education</h3>
+                    <li class="sundsgarden">
+                        <h3><i class="fas fa-angle-right"></i> Sundsgarden Folkhogskola</h3>
+                        <p>2022</p>
+                        <p>Front End Development</p>
+                    </li>
+                    <li class="cybertek">
+                        <h3><i class="fas fa-angle-right"></i> Cybertek School</h3>
+                        <p>2018</p>
+                        <p>QA Automation Engineer</p>
+                    </li>
+                    <li class="university">
+                        <h3><i class="fas fa-angle-right"></i> SarjanaWiyata Tamansiswa University</h3>
+                        <p>2012</p>
+                        <p>Mathematics Education</p>
+                        <p>4 years</p>
+                    </li>
                 </div>
-                <div class="cybertek">
-                    <h3>Cybertek School</h3>
-                    <p>2018</p>
-                    <p>QA Automation Engineer</p>
+                <div class="work">
+                    <h3 class="edu-h3"><i class="fas fa-briefcase"></i> Work</h3>
+                    <li class="interpreter">
+                        <h3><i class="fas fa-angle-right"></i> Hultsfred Kommun</h3>
+                        <p>20..</p> <!-- Tamamla -->
+                        <p>Interpreter</p>
+                        <p>Sweden</p>
+                    </li>
+                    <li class="prolympia">
+                        <h3><i class="fas fa-angle-right"></i> Prolympoia Idrottsskola</h3>
+                        <p>20..</p> <!-- Tamamla -->
+                        <p>Student Assistant</p>
+                        <p>Sweden</p>
+                    </li>
+                    <li class="ntif">
+                        <h3><i class="fas fa-angle-right"></i> Nigerian Tulip International Foundation</h3>
+                        <p>20..</p> <!-- Tamamla -->
+                        <p>Regional Director</p>
+                        <p>Nigeria</p>
+                    </li>
+                    <li class="ntic">
+                        <h3><i class="fas fa-angle-right"></i> Nigerian Tulip International Colleges</h3>
+                        <p>20..</p> <!-- Tamamla -->
+                        <p>Mathematics Teacher <br> Olimpiad Coordinator</p>
+                        <p>Nigeria</p>
+                    </li>
                 </div>
-                <div class="university">
-                    <h3>SarjanaWiyata Tamansiswa University</h3>
-                    <p>2012</p>
-                    <p>Mathematics Education</p>
-                    <p>4 years</p>
+                <div class="skills">
+                    <h3 class="edu-h3"><i class="fas fa-smile-beam"></i> Skills</h3>
+                    <p>
+                        -- Java<br>-- Selenium Cucumber<br>-- TestNg<br>-- Junit<br>-- SQL <br>-- Postman<br>-- Maven<br>-- Jira
+                        <br>-- Git/GitHub<br>-- SeleniumGrid<br>-- Jenkins<br>-- Intellij IDEA<br>-- Eclipse<br>-- HTML<br>-- CSS
+                        <br>-- Javascript<br>-- Modern design libraries<br>-- Modern frameworks<br>-- Visual Studios Code
+                        <br>-- Programming techniques<br>-- Agile work
+                    </p>
                 </div>
             </div>
-        </section> -->
+            <div class="career">
+                <h3>Career Summary</h3>
+                <p>* Excellent knowledge andimplementation skills in SDLC,STLC and Defect Life Cycle <br>
+                    * Proven ability in designing anddeveloping automation frameworkusing Java, Maven, Selenium,TestNG, Junit, Cucumber <br>
+                    * Experience in API using functionslike Get, Post, Put and Deletemethods. Using Postman, andREST Assured Library with Java <br>
+                    * Experience in different type ofreports for my testing frameworklike Extent-HTML reports/TestNG/ Cucumber/ JSON reports <br>
+                    * Experience of developing fromscratch and/or maintainingAutomation Framework Models(BDD / TDD Hybrid) <br>
+                    * Hand on experience in Functionaltest, UI test, API test, Databasetest, Regression Test, Smoke test</p>
+            </div>
+            <div class="section-line"></div>
+        </section>
+        <section class="my-works">
+            <h2>My Works</h2>
+            <div class="works-container">
+                <div>
+                    <a href="#at">
+                        <img src="images/at.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>At</h3>
+                </div>
+                <div>
+                    <a href="#cita">
+                        <img src="images/cita.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>Cita</h3>
+                </div>
+                <div>
+                    <a href="#geyik">
+                        <img src="images/geyik.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>Geyik</h3>
+                </div>
+                <div>
+                    <a href="#panda">
+                        <img src="images/panda.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>Panda</h3>
+                </div>
+                <div>
+                    <a href="#tulip">
+                        <img src="images/tulip.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>Tulip</h3>
+                </div>
+                <div>
+                    <a href="#kopek">
+                        <img src="images/dog.jpeg" alt="" width="300px" height="400px">
+                    </a>
+                    <h3>Kopek</h3>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <form action="">
+                <label for="fname">Full Name :</label>
+                <input type="text" id="fname" name="full-name" placeholder="Full Name...">
+                <label for="e-mail">Email :</label>
+                <input type="email" id="e-mail" name="email" placeholder="Email...">
+                <label for="phone-no">Phone Number :</label>
+                <input type="tel" id="phone-no" name="phone" placeholder="Phone Number...">
+                <label for="subject">Subject :</label>
+                <textarea type="text" id="subject" name="Subject" placeholder="Write here..."></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <div>
+            <h4>Created by Turgay Demir 2021</h4>
+        </div>
     </main>
 </body>
 </html>
