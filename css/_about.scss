@@ -2,7 +2,16 @@
 .about-me{
     margin: 30px;
 
-    h3{
-        font-family: $font-family-lobster;
+    h2{
+        @extend .h2;
+    }
+    p{
+        font-family: $font-family-josefin;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+    .section-line{
+        @extend .section-line;
+        margin-top: 20px;
     }
 }
